@@ -1,0 +1,2 @@
+message="Ludaaaaaaa"
+print(message)

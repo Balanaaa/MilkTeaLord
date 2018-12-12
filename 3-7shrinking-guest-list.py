@@ -1,0 +1,22 @@
+guests=['Luda','Bona','Wendy']
+guests.insert(0,'Jane')
+guests.insert(1,'Ludaaa')
+guests.append('Bonaaa')
+print('I want '+ guests[0] +' to join my dinner.')
+print('I want '+ guests[1] +' to join my dinner.')
+print('I want '+ guests[2] +' to join my dinner.')
+print('I want '+ guests[3] +' to join my dinner.')
+print('I want '+ guests[4] +' to join my dinner.')
+print('I want '+ guests[5] +' to join my dinner.')
+print('I am sorry thatI can only invite 2 people to have dinner with me.')
+guests1=guests.pop(0)
+print("I am sorry that I can not invite "+ guests1)
+guests2=guests.pop(1)
+print("I am sorry that I can not invite "+ guests2)
+guests2=guests.pop(2)
+print("I am sorry that I can not invite "+ guests3)
+print(guests[0]+ " ,remember to come to my dinner.")
+print(guests[1]+ " ,remember to come to my dinner.")
+del guests[0]
+del guests[1]
+print(guests)
